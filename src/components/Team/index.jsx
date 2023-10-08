@@ -16,36 +16,36 @@ const Team = () => {
                     <div className="team-list-wrap">
                         <div className="team-grid">
                             <div className="list-item">
-                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://assets.website-files.com/6178312e621dc29857e9c3e5/63e3cedeb40e370db6c149bc_Asset%202.png")' }}>
+                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://res.cloudinary.com/dfnfszqky/image/upload/v1696777498/pexels-karolina-grabowska-6627836_puvsvz.jpg")' }}>
                                     <div className="team-member-hover">
-                                        <div className="team-member-name">Hari</div>
+                                        <div className="team-member-name">Dr. Alan Smith</div>
                                         <div className="team-member-name">Founder</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="list-item">
-                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://assets.website-files.com/6178312e621dc29857e9c3e5/63e3cedeb40e370db6c149bc_Asset%202.png")' }}>
+                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://res.cloudinary.com/dfnfszqky/image/upload/v1696777498/pexels-karolina-grabowska-6627836_puvsvz.jpg")' }}>
                                     <div className="team-member-hover">
-                                        <div className="team-member-name">Hari</div>
+                                        <div className="team-member-name">Dr. Alan Smith</div>
                                         <div className="team-member-name">Founder</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="list-item">
-                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://assets.website-files.com/6178312e621dc29857e9c3e5/63e3cedeb40e370db6c149bc_Asset%202.png")' }}>
+                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://res.cloudinary.com/dfnfszqky/image/upload/v1696777498/pexels-karolina-grabowska-6627836_puvsvz.jpg")' }}>
                                     <div className="team-member-hover">
-                                        <div className="team-member-name">Hari</div>
+                                        <div className="team-member-name">Dr. Alan Smith</div>
                                         <div className="team-member-name">Founder</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="list-item">
-                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://assets.website-files.com/6178312e621dc29857e9c3e5/63e3cedeb40e370db6c149bc_Asset%202.png")' }}>
+                                <div className="team-member-photo" style={{ backgroundImage: 'url("https://res.cloudinary.com/dfnfszqky/image/upload/v1696777498/pexels-karolina-grabowska-6627836_puvsvz.jpg")' }}>
                                     <div className="team-member-hover">
-                                        <div className="team-member-name">Hari</div>
+                                        <div className="team-member-name">Dr. Alan Smith</div>
                                         <div className="team-member-name">Founder</div>
                                     </div>
                                 </div>

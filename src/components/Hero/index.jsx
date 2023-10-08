@@ -21,7 +21,7 @@ const Hero = () => {
                     <div className="hero-video-wrap homepage">
                         <div className="absolute">
                             <div className="background-video w-background-video">
-                                <video style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnfszqky/image/upload/v1696700187/61d45cc9e517d208e528b4e7_Swish_Video-poster-00001_lmqrqa.jpg)' }} autoPlay controls>
+                                <video style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnfszqky/image/upload/v1696700187/61d45cc9e517d208e528b4e7_Swish_Video-poster-00001_lmqrqa.jpg)' }} autoPlay muted src='https://res.cloudinary.com/dfnfszqky/video/upload/v1696700164/pexels-c-technical-6502168_2160p_ijhyky.mp4'>
                                     <source src='https://res.cloudinary.com/dfnfszqky/video/upload/v1696700164/pexels-c-technical-6502168_2160p_ijhyky.mp4' />
                                 </video>
                             </div>

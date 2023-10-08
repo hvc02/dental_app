@@ -59,8 +59,8 @@ const ReviewSection = () => {
                     className="mySwiper">
                     {testimonies.map((testimony, index) => {
                         return (
-                            <SwiperSlide>
-                                <div className="slide-content-wrapper">
+                            <SwiperSlide key={index}>
+                                <div className="slide-content-wrapper" key={index}>
                                     < TestimonialCard content={testimony.content} reviewer={testimony.reviewer} key={index} />
                                 </div>
                             </SwiperSlide>

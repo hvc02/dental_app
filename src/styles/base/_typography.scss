@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+body,
+h1,
+h2,
+h3,
+p,
+span,
+a,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+p.text {
+  color: #222;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+.hero-heading {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 110%;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  font-size: 20px;
+  color: #222;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.heading {
+  color: #222;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.heading-primary {
+  font-size: 48px;
+}
+
+p.text-hero {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-heading {
+    font-size: 60px;
+  }
+
+  p.text-hero {
+    font-size: 20px;
+  }
+
+  .heading-primary {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-heading {
+    font-size: 48px;
+  }
+
+  p.text-hero {
+    font-size: 16px;
+  }
+
+  .heading-primary {
+    font-size: 36px;
+  }
+}

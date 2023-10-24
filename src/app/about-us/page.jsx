@@ -2,7 +2,13 @@ import React from 'react'
 
 const AboutUsPage = () => {
     return (
-        <div>AboutUsPage</div>
+        <div className='section about-section half-bottom'>
+            <div className="container">
+                <div className="about-bg">
+
+                </div>
+            </div>
+        </div>
     )
 }
 

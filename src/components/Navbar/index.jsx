@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
             <ul className='middle-list'>
                 <li>
-                    <Link href='/home'>
+                    <Link href='/'>
                         <p>Home</p>
                     </Link>
                 </li>

@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import NavigationList from '@/components/Navbar/NavigationList'
 import Hamburger from 'hamburger-react'
 import Button from '@/components/Button'
+import Link from 'next/link'
 
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false)
@@ -22,9 +23,21 @@ const Navbar = () => {
                 }
             </div>
             <ul className='middle-list'>
-                <li><p>Services</p></li>
-                <li><p>Team</p></li>
-                <li><p>About us</p></li>
+                <li>
+                    <Link href='/contact'>
+                        <p>Contact us</p>
+                    </Link>
+                </li>
+                {/* <li>
+                    <Link href='/team'>
+                        <p>Team</p>
+                    </Link>
+                </li> */}
+                <li>
+                    <Link href='/about-us'>
+                        <p>About us</p>
+                    </Link>
+                </li>
             </ul>
             <div className="top-right">
                 <p className="phone-number">(512)-645-722</p>

@@ -1,0 +1,33 @@
+.contact-section {
+  height: 100vh;
+}
+
+.contact-flex-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-left {
+  flex-basis: 40%;
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-list {
+  margin-top: 1.5rem;
+}
+
+.contact-list-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-flex-wrapper {
+    flex-direction: column;
+  }
+}

@@ -24,18 +24,18 @@ const Navbar = () => {
             </div>
             <ul className='middle-list'>
                 <li>
-                    <Link href='/contact'>
-                        <p>Contact us</p>
+                    <Link href='/home'>
+                        <p>Home</p>
                     </Link>
                 </li>
-                {/* <li>
-                    <Link href='/team'>
-                        <p>Team</p>
-                    </Link>
-                </li> */}
                 <li>
                     <Link href='/about-us'>
                         <p>About us</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link href='/contact'>
+                        <p>Contact us</p>
                     </Link>
                 </li>
             </ul>

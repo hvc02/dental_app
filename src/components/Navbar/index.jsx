@@ -52,7 +52,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="top-right">
-        <p className="phone-number">(512)-645-722</p>
+        <p className="phone-number">508-202-9067</p>
         <div className="hamburger-icon-wrapper">
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>

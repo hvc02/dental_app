@@ -10,7 +10,7 @@ const InsurancePage = () => {
           <div className="header-section _700">
             <ThumbsIcon />
             <PrimaryHeading content="Insurance" />
-            <Paragraph content="Swish Dental accepts most dental insurance plans. That said, let's be sure you are covered. Please fill out the form below—it only takes a few seconds:" />
+            <Paragraph content="Phoenix Dental accepts most dental insurance plans. That said, let's be sure you are covered. Please fill out the form below—it only takes a few seconds:" />
           </div>
         </div>
       </div>

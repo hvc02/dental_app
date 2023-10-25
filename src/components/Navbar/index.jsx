@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="top-left">
         <div className="top-logo-wrapper">
           <img
-            src="https://i.ibb.co/xJXGtVS/output-onlinepngtools.png"
+            src="https://res.cloudinary.com/dfnfszqky/image/upload/v1698266993/output-onlinepngtools_1_o7qzhm.png"
             alt="output-onlinepngtools"
           />
         </div>

@@ -8,5 +8,7 @@ export const LargeParagraph = ({ content }) => <p className='text text-large'>{c
 
 export const HeroParagraph = ({ content }) => <p className='text text-hero'>{content}</p>
 
+export const SmallParagraph = ({ content }) => <p className='text text-small'>{content}</p>
+
 
 

@@ -26,6 +26,14 @@
   margin-bottom: 1rem;
 }
 
+.location-link {
+  text-decoration: underline;
+}
+
+.maps-container {
+  margin-top: 1.5rem;
+}
+
 @media screen and (max-width: 767px) {
   .contact-flex-wrapper {
     flex-direction: column;

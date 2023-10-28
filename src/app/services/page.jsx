@@ -1,10 +1,11 @@
-import { StarsIcon } from "@/components/SVGs";
+import React from "react";
 import {
   HeroHeading,
   Paragraph,
   PrimaryHeading,
 } from "@/components/Typography";
-import React from "react";
+import { StarsIcon } from "@/components/SVGs";
+import { dentalServices } from "app/utils/copy";
 
 const ServicesPage = () => {
   return (
@@ -38,59 +39,27 @@ const ServicesPage = () => {
           <div className="vertical-flex">
             <div className="teams-wrapper w-dyn-list">
               <div className="grid-list w-dyn-items">
-                <div className="team-member-grid locations w-dyn-item">
+                {dentalServices.map((service, index) => (
                   <div
-                    className="team-member-photo locations"
-                    id="service-photo"
-                  ></div>
-                  <div
-                    className="team-member-text-wrap location"
-                    id="service-content"
+                    className="team-member-grid locations w-dyn-item"
+                    key={index}
                   >
-                    <PrimaryHeading content={"General Dentistry"} />
-                    <Paragraph
-                      content={
-                        "Get comprehensive general and family dentistry services at Swish Dental. Our experienced dentists provide high-quality care in a friendly environment."
-                      }
-                    />
+                    <div
+                      className="team-member-photo locations"
+                      id="service-photo"
+                      style={{
+                        backgroundImage: `url(${service.image})`,
+                      }}
+                    ></div>
+                    <div
+                      className="team-member-text-wrap location"
+                      id="service-content"
+                    >
+                      <PrimaryHeading content={service.name} />
+                      <Paragraph content={service.description} />
+                    </div>
                   </div>
-                </div>
-
-                <div className="team-member-grid locations w-dyn-item">
-                  <div
-                    className="team-member-photo locations"
-                    id="service-photo"
-                  ></div>
-                  <div
-                    className="team-member-text-wrap location"
-                    id="service-content"
-                  >
-                    <PrimaryHeading content={"General Dentistry"} />
-                    <Paragraph
-                      content={
-                        "Get comprehensive general and family dentistry services at Swish Dental. Our experienced dentists provide high-quality care in a friendly environment."
-                      }
-                    />
-                  </div>
-                </div>
-
-                <div className="team-member-grid locations w-dyn-item">
-                  <div
-                    className="team-member-photo locations"
-                    id="service-photo"
-                  ></div>
-                  <div
-                    className="team-member-text-wrap location"
-                    id="service-content"
-                  >
-                    <PrimaryHeading content={"General Dentistry"} />
-                    <Paragraph
-                      content={
-                        "Get comprehensive general and family dentistry services at Swish Dental. Our experienced dentists provide high-quality care in a friendly environment."
-                      }
-                    />
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

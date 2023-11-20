@@ -22,8 +22,8 @@ const NewPatientPage = () => {
         <div className="container new-patient">
           <div className="side-text-info center">
             <div className="header-section _700">
+              <ThumbsIcon />
               <div>
-                <ThumbsIcon />
                 <PrimaryHeading content="New Patient" />
                 <div
                   class="new-patient-image-div image-div"

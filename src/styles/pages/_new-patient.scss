@@ -13,6 +13,12 @@
   align-items: center;
 }
 
+.width_900 {
+  width: 900px;
+  margin: 0 auto;
+  // align-items: center;
+}
+
 .new-patient-image-div {
   background-image: url("https://res.cloudinary.com/dfnfszqky/image/upload/v1698143737/Screenshot_2023-10-17_at_9.44.04_AM-min_zlnmjr.jpg");
   background-position: 50%;
@@ -43,6 +49,10 @@
   }
 
   .header-section._700 {
+    width: auto;
+  }
+
+  .width_900 {
     width: auto;
   }
 

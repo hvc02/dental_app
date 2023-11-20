@@ -1,3 +1,4 @@
+import PostOPMenu from "@/components/PostOPMenu";
 import Link from "next/link";
 import React from "react";
 
@@ -35,7 +36,7 @@ const NavigationList = () => {
             <p>FAQ's</p>
           </Link>
         </li>
-        {/* <li className='nav-item'></li> */}
+        <PostOPMenu />
       </ul>
     </nav>
   );

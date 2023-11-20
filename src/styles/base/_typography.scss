@@ -95,6 +95,12 @@ p.text-align-left,
   text-align: left;
 }
 
+//for navbar
+
+a p {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 991px) {
   .hero-heading {
     font-size: 60px;

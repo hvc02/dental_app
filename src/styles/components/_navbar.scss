@@ -62,14 +62,20 @@
 .middle-list {
   display: flex;
   list-style: none;
+  gap: 1rem;
+  align-items: center;
 
   li {
-    margin-left: 20px;
+    // margin-left: 20px;
     cursor: pointer;
   }
 }
 
-@media screen and (max-width: 768px) {
+a p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
   .hamburger-icon-wrapper {
     display: block;
   }

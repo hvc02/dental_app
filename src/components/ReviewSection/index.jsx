@@ -5,47 +5,11 @@ import { HappyFaceIcon } from "@/components/SVGs";
 import TestimonialCard from "@/components/TestimonialCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
+import testimonies from "app/utils/testimonies";
 import "swiper/css";
 import "swiper/css/navigation";
 
 const ReviewSection = () => {
-  const testimonies = [
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-    {
-      content:
-        "Thank you for a great experience as a new patient! Everyone was very friendly, supportive and proffesional. Everything was very modern, efficient and painless. There is a commitment to healthy and holistic treatment - at an affordable price.",
-      reviewer: "Victoria H",
-    },
-  ];
   return (
     <div className="section half-bottom section-team">
       <div className="container">

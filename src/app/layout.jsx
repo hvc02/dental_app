@@ -1,12 +1,12 @@
-import Navbar from '@/components/Navbar'
-import './globals.css'
-import '@/styles/index.scss'
-import Footer from '@/components/Footer'
+import Navbar from "@/components/Navbar";
+import "./globals.css";
+import "@/styles/index.scss";
+import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: 'Phoenix Dental',
-  description: 'Dental',
-}
+  title: "Phoenix Dental",
+  description: "Dental",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -17,5 +17,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  )
+  );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Spacer = () => {
-  return <div className="spacer"></div>;
+const Spacer = ({ variant = "" }) => {
+  return <div className={`spacer ${variant ? `spacer-${variant}` : ""}`}></div>;
 };
 
 export default Spacer;

@@ -20,6 +20,33 @@ p.text {
   line-height: 200%;
 }
 
+p.text-medium {
+  color: #222;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+p.text-large {
+  color: #222;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+p.text-accordion {
+  color: #222;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
 .hero-heading {
   font-size: 80px;
   font-weight: 700;
@@ -58,6 +85,16 @@ p.text-hero {
   margin-bottom: 30px;
 }
 
+.color-cta,
+p.color-cta {
+  color: #7bd6d0;
+}
+
+p.text-align-left,
+.text-align-left {
+  text-align: left;
+}
+
 @media screen and (max-width: 991px) {
   .hero-heading {
     font-size: 60px;
@@ -83,5 +120,10 @@ p.text-hero {
 
   .heading-primary {
     font-size: 36px;
+  }
+
+  p.text-accordion {
+    font-size: 16px;
+    text-align: left;
   }
 }

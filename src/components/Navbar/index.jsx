@@ -4,6 +4,7 @@ import NavigationList from "@/components/Navbar/NavigationList";
 import Hamburger from "hamburger-react";
 import Button from "@/components/Button";
 import Link from "next/link";
+import { LogoIcon } from "@/components/SVGs";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -13,8 +14,10 @@ const Navbar = () => {
     <div className="topbar">
       <div className="top-left">
         <div className="top-logo-wrapper">
+          {/* <LogoIcon /> */}
           <img
-            src="https://res.cloudinary.com/dfnfszqky/image/upload/v1698266993/output-onlinepngtools_1_o7qzhm.png"
+            src="https://res.cloudinary.com/dfnfszqky/image/upload/v1699719986/150x60_SVG_ddgeq5.svg"
+            // src="https://res.cloudinary.com/dfnfszqky/image/upload/v1699690474/Phoenix_Dental_Logo_Final-01_ivqrcr.png"
             alt="output-onlinepngtools"
           />
         </div>
@@ -36,8 +39,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/insurance">
-            <p>Insurance</p>
+          <Link href="/new-patient">
+            <p>New Patient</p>
           </Link>
         </li>
         <li>
@@ -48,6 +51,11 @@ const Navbar = () => {
         <li>
           <Link href="/contact">
             <p>Contact us</p>
+          </Link>
+        </li>
+        <li>
+          <Link href="/faq">
+            <p>FAQ's</p>
           </Link>
         </li>
       </ul>

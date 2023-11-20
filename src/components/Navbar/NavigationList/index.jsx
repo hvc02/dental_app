@@ -16,8 +16,8 @@ const NavigationList = () => {
           </Link>
         </li>
         <li>
-          <Link href="/insurance">
-            <p>Insurance</p>
+          <Link href="/new-patient">
+            <p>New Patient</p>
           </Link>
         </li>
         <li className="nav-item">
@@ -28,6 +28,11 @@ const NavigationList = () => {
         <li className="nav-item">
           <Link href="/contact">
             <p>Contact us</p>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link href="/faq">
+            <p>FAQ's</p>
           </Link>
         </li>
         {/* <li className='nav-item'></li> */}

@@ -1,7 +1,7 @@
 const testimonies = [
   {
     content:
-      "I can't thank Phoenix dental enough for their exceptional care! The staff is not only highly skilled but also incredibly friendly, making each visit a pleasant experience. Dr. Arora is thorough, considerate, and takes the time to explain everything. My smile has never been healthier, and I wholeheartedly recommend their services to anyone in search of top-notch dental care. Thank you,Phoenix, for making me feel confident about my oral health!",
+      "I can't thank Phoenix dental enough for their exceptional care! Dr. Arora is thorough, considerate, and takes the time to explain everything. My smile has never been healthier, and I wholeheartedly recommend their services to anyone in search of top-notch dental care.",
     reviewer: "Pauline ",
   },
   {

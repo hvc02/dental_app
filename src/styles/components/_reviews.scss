@@ -41,3 +41,9 @@
 .slick-slide {
   margin: 0 20px !important;
 }
+
+@media screen and (max-width: 767px) {
+  .testimonial-card p {
+    font-size: 14px;
+  }
+}

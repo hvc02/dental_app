@@ -1,10 +1,10 @@
-import Home from '@/components/Home'
-import Services from '@/components/Services'
+import Home from "@/components/Home";
+import Services from "@/components/Services";
 // import Location from '@/components/Location'
 // import WhyPhoenix from '@/components/WhyPhoenix'
-import Features from '@/components/Features'
-import Team from '@/components/Team'
-import ReviewSection from '@/components/ReviewSection'
+import Features from "@/components/Features";
+import Team from "@/components/Team";
+import ReviewSection from "@/components/ReviewSection";
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
       <Home />
       <Services />
       <Features />
-      <Team />
+      {/* <Team /> */}
       <ReviewSection />
       {/* <Location />
       <WhyPhoenix />
@@ -20,5 +20,5 @@ export default function App() {
       <ReviewSection />/
       <Team /> */}
     </>
-  )
+  );
 }

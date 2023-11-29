@@ -15,26 +15,27 @@ const Services = () => {
             <PrimaryHeading content="Our Services" />
             <ul className="phoenix-list">
               <li className="phoenix-list-item">
-                <p>
-
-                  general & family dentistry
-                </p>
+                <p>general & family dentistry</p>
               </li>
-              <li className="phoenix-list-item"><p>invisalign</p></li>
               <li className="phoenix-list-item">
-                <p>cosmetic dentistry</p>
+                <p>dental emergencies</p>
+              </li>
+
+              <li className="phoenix-list-item">
+                <p>root canal</p>
               </li>
               <li className="phoenix-list-item">
                 <p>teeth whitening</p>
               </li>
               <li className="phoenix-list-item">
-                <p>specialty & oral surgery</p>
+                <p>teeth extraction</p>
+              </li>
+
+              <li className="phoenix-list-item">
+                <p>implants</p>
               </li>
               <li className="phoenix-list-item">
-                <p>dental emergencies</p>
-              </li>
-              <li className="phoenix-list-item">
-                <p>sleep apnea</p>
+                <p>invisalign</p>
               </li>
             </ul>
           </div>

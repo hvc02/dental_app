@@ -13,7 +13,7 @@ export default function App() {
       <Services />
       <Features />
       {/* <Team /> */}
-      <ReviewSection />
+      {/* <ReviewSection /> */}
       {/* <Location />
       <WhyPhoenix />
       <Features />

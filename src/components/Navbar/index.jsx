@@ -65,7 +65,10 @@ const Navbar = () => {
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
         <div className="topbar-cta-wrapper">
-          <Button text="Schedule Now" />
+          <Button
+            text="Schedule Now"
+            href="https://phx.identalcloud.com/PhoenixDental/Patient/_practice/1/Appointment"
+          />
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ const AboutUsPage = () => {
               skills in general, restorative and aesthetic dentistry and
               graduated Magna Cum Laude.
             </p>
-            <p>
+            {/* <p>
               Dr. Arora has been practicing all aspects of restorative,
               prosthodontic, endodontic and surgical dentistry including wisdom
               teeth extraction for almost 15 years. He has practiced in India,
@@ -41,7 +41,7 @@ const AboutUsPage = () => {
               is a certified Invisalign provider. Dr. Arora is currently
               practicing in Framingham, MA and is proud to be a part of this
               loving community.
-            </p>
+            </p> */}
 
             <p>
               Dr. Arora has been practicing all aspects of restorative,

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Widget } from "@typeform/embed-react";
+// import { Widget } from "@typeform/embed-react";
 import {
   ClockIcon,
   LocationIconBlack,
@@ -19,7 +19,7 @@ const ContactPage = () => {
               <PrimaryHeading content="Contact Us" />
               <Paragraph
                 content={
-                  "Need to get in touch with us? Either fill out the form with your inquiry or reach out to us via phone or email."
+                  "Need to get in touch with us? Reach out to us via phone or email."
                 }
               />
               <div className="contact-list">
@@ -78,13 +78,13 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-            <div className="contact-right">
+            {/* <div className="contact-right">
               <Widget
                 id="apMS96Vb"
                 className="contact-form"
                 style={{ background: "transparent", height: "350px" }}
               />
-            </div>
+            </div> */}
           </div>
 
           <div className="maps-container dark">
